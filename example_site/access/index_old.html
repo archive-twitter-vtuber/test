@@ -10,18 +10,19 @@
 <link rel="stylesheet" href="../assets/css/reset.css">
 <link rel="stylesheet" href="../assets/css/common.css">
 <link rel="stylesheet" href="../assets/css/access.css">
-<script src="../assets/js/jquery-3.6.3.min.js"></script>
-<script>
-  $(function () {
-  $("#glnav").load("../assets/menu.html");
-  });
-</script>
 </head>
 <body>
   <header class="header header-access">
     <div class="catch-copy"><span>NEWS</span></div>
   </header>
-  <nav id="glnav"></nav>
+  <nav class="globalnav">
+    <ul class="globalnav-list">
+      <li><a href="../index.html">TOP</a></li>
+      <li><a href="../menu/index.html">MEMBER</a></li>
+      <li><a href="index.html">NEWS</a></li>
+
+    </ul>
+  </nav>
   <!-- ニュースリスト -->
 <ul class="newslist">
   <li>
@@ -43,7 +44,6 @@
       </a>
   </li>
 </ul>
-  
   
 </body>
 </html>
